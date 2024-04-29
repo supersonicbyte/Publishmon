@@ -4,7 +4,7 @@ Swifty deamon which watches for file changes, regenerates content and restarts h
 
   
 
-We all love Publish [], but re-running the `publish run` in the terminal every time we make a change to our source files can become tiring.
+We all love [Publish](https://github.com/JohnSundell/Publish), but re-running the `publish run` in the terminal every time we make a change to our source files can become tiring.
 
 Pubishmon does that automatically for you! It watches for file changes inside your website's source files and re-runs `publish run` for you.
 
@@ -20,6 +20,13 @@ $ git clone https://github.com/supersonicbyte/Publishmon.git
 $ cd Publishmon
 
 $ make
+```
+or you can install it with homebrew:
+
+```
+
+$ brew install supersonicbyte/tap/publishmon
+
 ```
 
 # Usage
